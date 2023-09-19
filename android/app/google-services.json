@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "514775478723",
+    "project_id": "mini-ebc7e",
+    "storage_bucket": "mini-ebc7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514775478723:android:46085b89c9eff4502f8d76",
+        "android_client_info": {
+          "package_name": "com.Tlabs.miniGuru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514775478723-co09e0ddssrutn9i3u2egj3shhtob3va.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Tlabs.miniGuru",
+            "certificate_hash": "47326d8f630c275f3e1fb3ceb648c89aaf9e8dc8"
+          }
+        },
+        {
+          "client_id": "514775478723-t3256838p1t9d7gaiu913q6dd0f4u63q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Tlabs.miniGuru",
+            "certificate_hash": "363f4e29ac3c7a8774bf987b0416656e99f8b405"
+          }
+        },
+        {
+          "client_id": "514775478723-vr5e29fo31e8h5mntlbaai5o59lfajj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Tlabs.miniGuru",
+            "certificate_hash": "cecc77e6f3289669e479be4c68d6ca5e4c826fea"
+          }
+        },
+        {
+          "client_id": "514775478723-tiiq3bpnpkp154dgirifr74ikmsg6f69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnV3JMh_UN5VWPbNquwSF1yV16fH8iExc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514775478723-tiiq3bpnpkp154dgirifr74ikmsg6f69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

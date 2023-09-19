@@ -1,0 +1,82 @@
+name: mini_guru
+version: 1.0.0+12
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.5 <3.0.0'
+
+dependencies: 
+  get_cli: ^1.8.1
+  stylish_bottom_bar: ^1.0.0
+  cached_network_image: ^3.2.3
+  video_player: ^2.4.5
+  share_plus: ^5.0.0
+  url_launcher: ^6.1.5
+  confetti: ^0.7.0
+  video_viewer: ^1.2.7
+  image_picker: ^0.8.5+3
+  image_cropper: ^3.0.1
+#  bubble_bottom_bar: ^2.0.0
+  expandable: ^5.0.1
+  razorpay_flutter: ^1.3.4
+  cupertino_icons: ^1.0.2
+  onboarding_animation: ^0.0.1
+  delayed_display: ^2.0.0
+  youtube_player_flutter: ^8.1.2
+  shared_preferences: ^2.0.15
+  rounded_loading_button: ^2.1.0
+#  google_sign_in: ^5.4.0
+  firebase_auth: ^4.1.1
+  pin_code_fields: ^7.4.0
+  auto_size_text: ^3.0.0
+  toggle_switch: ^2.0.1
+#  badges: ^2.0.3
+  dotted_border: ^2.0.0+2
+  lottie: ^2.0.0
+  flutter_3d_choice_chip: ^0.1.4
+  loading_animation_widget: ^1.2.0+2
+#  animated_bottom_navigation_bar: ^1.0.1
+  font_awesome_flutter: ^10.1.0
+  dropdown_button2: ^1.6.2
+  shimmer: ^2.0.0
+  flutter_local_notifications: ^13.0.0
+  percent_indicator: ^4.2.2
+  d_chart: ^1.0.0
+  rive: ^0.11.2
+  flutter_slidable: ^2.0.0
+  get: 4.6.5
+  intl: ^0.17.0
+  fluttertoast: ^8.0.9
+  custom_pin_screen: ^0.3.0
+  flutter: 
+    sdk: flutter
+
+
+dependency_overrides:
+  package_info_plus: any
+  wakelock_windows: any
+  win32: any
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+  icons_launcher: ^2.1.0
+icons_launcher:
+  image_path: "images/appLogo.jpg"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+flutter: 
+  uses-material-design: true
+  assets:
+    - images/
+    - pdf/
+    - lottieFiles/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+
