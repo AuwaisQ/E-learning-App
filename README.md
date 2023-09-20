@@ -27,19 +27,8 @@ contact - auwaisqureshi@gmail.com.
 
 
 # App Previews
-![6](https://github.com/AuwaisQ/E-learning-App/assets/53910217/7165986d-7e22-47fb-9244-682b4e08ad41)
 
-
-
-![5](https://github.com/AuwaisQ/E-learning-App/assets/53910217/40f493b7-84b5-4625-b4de-5f2452fa7348)
-
-
-
-![4](https://github.com/AuwaisQ/E-learning-App/assets/53910217/4fd41d07-edc3-4b35-bba5-ec399c3da604)
-
-
-
-![3](https://github.com/AuwaisQ/E-learning-App/assets/53910217/8a7180cd-1aa9-4d11-8fd2-56a6a2b08894)
+![1](https://github.com/AuwaisQ/E-learning-App/assets/53910217/f28e8dbe-5a7b-4ada-b54d-f0204962ea47)
 
 
 
@@ -47,6 +36,16 @@ contact - auwaisqureshi@gmail.com.
 
 
 
-![1](https://github.com/AuwaisQ/E-learning-App/assets/53910217/f28e8dbe-5a7b-4ada-b54d-f0204962ea47)
+![3](https://github.com/AuwaisQ/E-learning-App/assets/53910217/8a7180cd-1aa9-4d11-8fd2-56a6a2b08894)
 
 
+
+![4](https://github.com/AuwaisQ/E-learning-App/assets/53910217/4fd41d07-edc3-4b35-bba5-ec399c3da604)
+
+
+
+![5](https://github.com/AuwaisQ/E-learning-App/assets/53910217/40f493b7-84b5-4625-b4de-5f2452fa7348)
+
+
+
+![6](https://github.com/AuwaisQ/E-learning-App/assets/53910217/7165986d-7e22-47fb-9244-682b4e08ad41)
