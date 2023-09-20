@@ -26,15 +26,8 @@ We welcome your feedback and contributions to make Young Creators' Hub even bett
 contact - auwaisqureshi@gmail.com.
 
 
+# App Previews
 
-![6](https://github.com/AuwaisQ/E-learning-App/assets/53910217/c7fa46e8-c553-4bb7-9a94-63080b995cff)
-
-![5](https://github.com/AuwaisQ/E-learning-App/assets/53910217/14570ae1-e35a-46ba-a960-8d7e0a658ba1)
-
-![4](https://github.com/AuwaisQ/E-learning-App/assets/53910217/c5120edd-1b7b-475f-9342-58d4013360d1)
-
-![3](https://github.com/AuwaisQ/E-learning-App/assets/53910217/f174750d-533f-499d-ad0d-82a5444b20bc)
-
-![2](https://github.com/AuwaisQ/E-learning-App/assets/53910217/688cec23-d734-4cf7-b697-85223afb8ad6)
-
-![1](https://github.com/AuwaisQ/E-learning-App/assets/53910217/0f417340-5064-4890-a74c-9efc86e840f1)
+![6](https://github.com/AuwaisQ/E-learning-App/assets/53910217/f0c4e6b8-736a-4d9e-b0c0-1b314963f140)       ![5](https://github.com/AuwaisQ/E-learning-App/assets/53910217/a852ce95-d0c8-41a2-96e5-0978b80a732f)
+![4](https://github.com/AuwaisQ/E-learning-App/assets/53910217/532c5598-bf54-48ec-8419-1bc94920480d)       ![3](https://github.com/AuwaisQ/E-learning-App/assets/53910217/ffbd58af-6c69-4692-9e82-e86ba94bea38)
+![2](https://github.com/AuwaisQ/E-learning-App/assets/53910217/4c8e7e79-7e18-47be-8b15-5c5aad322633)       ![1](https://github.com/AuwaisQ/E-learning-App/assets/53910217/f2377ec3-79de-495e-830c-f6f2770e594b)
