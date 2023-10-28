@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/auwais/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/auwais/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "rive_text::@6890427a1f51a3e7e1df": {
+      "artifactName": "rive_text",
+      "abi": "x86",
+      "output": "/Users/auwais/StudioProjects/E-learning-App/build/rive_common/intermediates/cxx/RelWithDebInfo/1i1c356u/obj/x86/librive_text.so",
+      "runtimeFiles": []
+    }
+  }
+}

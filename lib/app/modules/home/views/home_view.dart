@@ -14,7 +14,6 @@ class HomeView extends GetView<HomeController> {
 
   HomeView({super.key});
 
-
   @override
   Widget build(BuildContext context) {
     return Obx(() {
@@ -190,12 +189,9 @@ class HomeView extends GetView<HomeController> {
                             children: [
                               appBar,
                               SizedBox(
-                                height: size.width * 0.04,
+                                height: Get.width * 0.04,
                               ),
                               scoreCard,
-                              SizedBox(
-                                height: size.width * 0.04,
-                              ),
                             ],
                           ),
                         ),

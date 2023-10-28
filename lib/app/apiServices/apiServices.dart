@@ -476,14 +476,12 @@ class ApiServices {
   }
 
   //Get User Profile Details
-  Future getUserProfileDetails(
-      var userId
-      ) async {
-    if (kDebugMode) {
-      print(getProfileDetailsURL);
-    }
+  Future getUserProfileDetails(var userId) async {
+    if (kDebugMode) {print(getProfileDetailsURL);}
     final response = await http.post(Uri.parse(getProfileDetailsURL),
+
         headers: <String, String>{'Content-Type': 'application/json; charset=UTF-8',},
+
         body: json.encode({"userId":"$userId"}));
     var convertDataToJson = await jsonDecode(response.body);
     return convertDataToJson;

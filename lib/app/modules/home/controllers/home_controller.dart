@@ -25,7 +25,7 @@ class HomeController extends GetxController {
   var nextPageToken = ''.obs;
   var videosList = <VideoModel>[].obs;
   static const String _baseUrl = 'www.googleapis.com';
-  static const String apiKey = "AIzaSyB2CfZMmlEfbHvIX_RL033N2tAej54KyjE";
+  static const String apiKey = "AIzaSyBS-BXPnpZN99Ewmu63f6KglojWExIJkD0";//Youtube API Key
   // static const channelId = 'UC6Dy0rQ6zDnQuHQ1EeErGUA';
   static const channelId = 'UCfk6tZ_HJ4412cxrNMXlSIA';//MiniGuru
 

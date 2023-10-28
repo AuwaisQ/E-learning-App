@@ -1,0 +1,654 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- <?xml version="1.0" encoding="utf-8"?> -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.Tlabs.miniGuru"
+5    android:versionCode="14"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:6:5-66
+12-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+13-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+14-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+15    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+15-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+15-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+16    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+16-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+16-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+17-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+18
+19    <queries>
+19-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+20        <intent>
+20-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+21            <action android:name="android.support.customtabs.action.CustomTabsService" />
+21-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+21-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+22        </intent>
+23        <intent>
+23-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:11:9-17:18
+24            <action android:name="android.intent.action.VIEW" />
+24-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:12:13-65
+24-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:12:21-62
+25
+26            <data
+26-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:14:13-16:38
+27                android:mimeType="*/*"
+27-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:15:17-39
+28                android:scheme="*" />
+28-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:16:17-35
+29        </intent>
+30        <intent>
+30-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:18:9-27:18
+31            <action android:name="android.intent.action.VIEW" />
+31-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:12:13-65
+31-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:12:21-62
+32
+33            <category android:name="android.intent.category.BROWSABLE" />
+33-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:21:13-74
+33-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:21:23-71
+34
+35            <data
+35-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:14:13-16:38
+36                android:host="pay"
+37                android:mimeType="*/*"
+37-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:15:17-39
+38                android:scheme="upi" />
+38-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:16:17-35
+39        </intent>
+40        <intent>
+40-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:28:9-30:18
+41            <action android:name="android.intent.action.MAIN" />
+41-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:29:17-68
+41-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:29:25-66
+42        </intent>
+43        <intent>
+43-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:31:9-35:18
+44            <action android:name="android.intent.action.SEND" />
+44-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:32:13-65
+44-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:32:21-62
+45
+46            <data android:mimeType="*/*" />
+46-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:14:13-16:38
+46-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:15:17-39
+47        </intent>
+48        <intent>
+48-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:36:9-38:18
+49            <action android:name="rzp.device_token.share" />
+49-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:13-61
+49-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:21-58
+50        </intent>
+51    </queries>
+52
+53    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+53-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:26:5-79
+53-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:26:22-76
+54    <uses-permission android:name="android.permission.WAKE_LOCK" />
+54-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/auwais/.gradle/caches/transforms-3/4a052af767e3ad44ac25d097f7bdfff7/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:24:5-68
+54-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/auwais/.gradle/caches/transforms-3/4a052af767e3ad44ac25d097f7bdfff7/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:24:22-65
+55
+56    <uses-feature
+56-->[com.google.android.gms:play-services-maps:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a78b5a06006a5ee9f3cb63826d61ed33/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+57        android:glEsVersion="0x00020000"
+57-->[com.google.android.gms:play-services-maps:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a78b5a06006a5ee9f3cb63826d61ed33/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+58        android:required="true" />
+58-->[com.google.android.gms:play-services-maps:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a78b5a06006a5ee9f3cb63826d61ed33/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+59
+60    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+60-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:26:5-110
+60-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:26:22-107
+61
+62    <permission
+62-->[androidx.core:core:1.10.1] /Users/auwais/.gradle/caches/transforms-3/e73600b7204754fa6eaab4c4f4dd2179/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+63        android:name="com.Tlabs.miniGuru.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+63-->[androidx.core:core:1.10.1] /Users/auwais/.gradle/caches/transforms-3/e73600b7204754fa6eaab4c4f4dd2179/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+64        android:protectionLevel="signature" />
+64-->[androidx.core:core:1.10.1] /Users/auwais/.gradle/caches/transforms-3/e73600b7204754fa6eaab4c4f4dd2179/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+65
+66    <uses-permission android:name="com.Tlabs.miniGuru.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+66-->[androidx.core:core:1.10.1] /Users/auwais/.gradle/caches/transforms-3/e73600b7204754fa6eaab4c4f4dd2179/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+66-->[androidx.core:core:1.10.1] /Users/auwais/.gradle/caches/transforms-3/e73600b7204754fa6eaab4c4f4dd2179/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+67
+68    <application
+68-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:8:4-38:19
+69        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+69-->[androidx.core:core:1.10.1] /Users/auwais/.gradle/caches/transforms-3/e73600b7204754fa6eaab4c4f4dd2179/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+70        android:extractNativeLibs="false"
+71        android:icon="@mipmap/ic_launcher"
+71-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:11:9-43
+72        android:label="Mini Guru" >
+72-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:10:9-34
+73        <activity
+73-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:12:9-32:20
+74            android:name="com.example.mini_guru.MainActivity"
+74-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:13:13-41
+75            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+75-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:17:13-163
+76            android:exported="true"
+76-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:14:13-36
+77            android:hardwareAccelerated="true"
+77-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:18:13-47
+78            android:launchMode="singleTop"
+78-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:15:13-43
+79            android:theme="@style/LaunchTheme"
+79-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:16:13-47
+80            android:windowSoftInputMode="adjustResize" >
+80-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:19:13-55
+81
+82            <!--
+83                 Specifies an Android theme to apply to this Activity as soon as
+84                 the Android process has started. This theme is visible to the user
+85                 while the Flutter UI initializes. After that, this theme continues
+86                 to determine the Window background behind the Flutter UI.
+87            -->
+88            <meta-data
+88-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:24:13-27:17
+89                android:name="io.flutter.embedding.android.NormalTheme"
+89-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:25:15-70
+90                android:resource="@style/NormalTheme" />
+90-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:26:15-52
+91
+92            <intent-filter>
+92-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:28:13-31:29
+93                <action android:name="android.intent.action.MAIN" />
+93-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:29:17-68
+93-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:29:25-66
+94
+95                <category android:name="android.intent.category.LAUNCHER" />
+95-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:30:17-76
+95-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:30:27-74
+96            </intent-filter>
+97        </activity>
+98        <!--
+99             Don't delete the meta-data below.
+100             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+101        -->
+102        <meta-data
+102-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:35:9-37:33
+103            android:name="flutterEmbedding"
+103-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:36:13-44
+104            android:value="2" />
+104-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:37:13-30
+105
+106        <service
+106-->[:firebase_auth] /Users/auwais/StudioProjects/E-learning-App/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+107            android:name="com.google.firebase.components.ComponentDiscoveryService"
+107-->[:firebase_auth] /Users/auwais/StudioProjects/E-learning-App/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+108            android:directBootAware="true"
+108-->[com.google.firebase:firebase-common:20.3.2] /Users/auwais/.gradle/caches/transforms-3/026de80ea9d0b63bfc94ec9a10c1d73c/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+109            android:exported="false" >
+109-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/auwais/.gradle/caches/transforms-3/a66e5203550ce48cdd47756c2dd244ff/transformed/jetified-firebase-analytics-ktx-21.2.2/AndroidManifest.xml:10:13-37
+110            <meta-data
+110-->[:firebase_auth] /Users/auwais/StudioProjects/E-learning-App/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+111                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+111-->[:firebase_auth] /Users/auwais/StudioProjects/E-learning-App/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[:firebase_auth] /Users/auwais/StudioProjects/E-learning-App/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+113            <meta-data
+113-->[:firebase_core] /Users/auwais/StudioProjects/E-learning-App/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+114-->[:firebase_core] /Users/auwais/StudioProjects/E-learning-App/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_core] /Users/auwais/StudioProjects/E-learning-App/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/auwais/.gradle/caches/transforms-3/a66e5203550ce48cdd47756c2dd244ff/transformed/jetified-firebase-analytics-ktx-21.2.2/AndroidManifest.xml:11:13-13:85
+117                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+117-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/auwais/.gradle/caches/transforms-3/a66e5203550ce48cdd47756c2dd244ff/transformed/jetified-firebase-analytics-ktx-21.2.2/AndroidManifest.xml:12:17-126
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/auwais/.gradle/caches/transforms-3/a66e5203550ce48cdd47756c2dd244ff/transformed/jetified-firebase-analytics-ktx-21.2.2/AndroidManifest.xml:13:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-common-ktx:20.3.2] /Users/auwais/.gradle/caches/transforms-3/7ed1776c1ce3f25bf00b6ffa6589c05b/transformed/jetified-firebase-common-ktx-20.3.2/AndroidManifest.xml:14:13-16:85
+120                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+120-->[com.google.firebase:firebase-common-ktx:20.3.2] /Users/auwais/.gradle/caches/transforms-3/7ed1776c1ce3f25bf00b6ffa6589c05b/transformed/jetified-firebase-common-ktx-20.3.2/AndroidManifest.xml:15:17-113
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-common-ktx:20.3.2] /Users/auwais/.gradle/caches/transforms-3/7ed1776c1ce3f25bf00b6ffa6589c05b/transformed/jetified-firebase-common-ktx-20.3.2/AndroidManifest.xml:16:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:69:13-71:85
+123                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+123-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:70:17-109
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:71:17-82
+125            <meta-data
+125-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/auwais/.gradle/caches/transforms-3/4a052af767e3ad44ac25d097f7bdfff7/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:31:13-33:85
+126                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+126-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/auwais/.gradle/caches/transforms-3/4a052af767e3ad44ac25d097f7bdfff7/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:32:17-139
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.android.gms:play-services-measurement-api:21.2.2] /Users/auwais/.gradle/caches/transforms-3/4a052af767e3ad44ac25d097f7bdfff7/transformed/jetified-play-services-measurement-api-21.2.2/AndroidManifest.xml:33:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-installations:17.1.3] /Users/auwais/.gradle/caches/transforms-3/c6892a04519549dabf7974bc7e92594e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+129                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+129-->[com.google.firebase:firebase-installations:17.1.3] /Users/auwais/.gradle/caches/transforms-3/c6892a04519549dabf7974bc7e92594e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-installations:17.1.3] /Users/auwais/.gradle/caches/transforms-3/c6892a04519549dabf7974bc7e92594e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+131        </service>
+132
+133        <provider
+133-->[:image_picker_android] /Users/auwais/StudioProjects/E-learning-App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+134            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+134-->[:image_picker_android] /Users/auwais/StudioProjects/E-learning-App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+135            android:authorities="com.Tlabs.miniGuru.flutter.image_provider"
+135-->[:image_picker_android] /Users/auwais/StudioProjects/E-learning-App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+136            android:exported="false"
+136-->[:image_picker_android] /Users/auwais/StudioProjects/E-learning-App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+137            android:grantUriPermissions="true" >
+137-->[:image_picker_android] /Users/auwais/StudioProjects/E-learning-App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+138            <meta-data
+138-->[:image_picker_android] /Users/auwais/StudioProjects/E-learning-App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+139                android:name="android.support.FILE_PROVIDER_PATHS"
+139-->[:image_picker_android] /Users/auwais/StudioProjects/E-learning-App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+140                android:resource="@xml/flutter_image_picker_file_paths" />
+140-->[:image_picker_android] /Users/auwais/StudioProjects/E-learning-App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+141        </provider>
+142
+143        <activity
+143-->[:url_launcher_android] /Users/auwais/StudioProjects/E-learning-App/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+144            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+144-->[:url_launcher_android] /Users/auwais/StudioProjects/E-learning-App/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+145            android:exported="false"
+145-->[:url_launcher_android] /Users/auwais/StudioProjects/E-learning-App/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+146            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+146-->[:url_launcher_android] /Users/auwais/StudioProjects/E-learning-App/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+147
+148        <receiver
+148-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+149            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+149-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+150            android:exported="false" />
+150-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+151        <receiver
+151-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+152            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+152-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+153            android:exported="false" />
+153-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+154        <receiver
+154-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+155            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+155-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+156            android:exported="false" >
+156-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+157            <intent-filter>
+157-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+158                <action android:name="android.intent.action.BOOT_COMPLETED" />
+158-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+158-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+159                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+159-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+159-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+160                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+160-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+160-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+161                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+161-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+161-->[:flutter_local_notifications] /Users/auwais/StudioProjects/E-learning-App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+162            </intent-filter>
+163        </receiver>
+164
+165        <activity
+165-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+166            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+166-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+167            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+167-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+168            android:exported="false"
+168-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+169            android:theme="@style/AppTheme" />
+169-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+170        <activity
+170-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+171            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+171-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-112
+172            android:exported="false"
+172-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+173            android:theme="@style/ThemeTransparent" />
+173-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+174        <activity
+174-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+175            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+175-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-106
+176            android:exported="false"
+176-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+177            android:theme="@style/ThemeTransparent" />
+177-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+178        <activity
+178-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+179            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+179-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-126
+180            android:exported="false"
+180-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+181            android:launchMode="singleInstance"
+181-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+182            android:theme="@style/ThemeTransparent" />
+182-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+183        <activity
+183-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+184            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+184-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-120
+185            android:exported="false"
+185-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+186            android:launchMode="singleInstance"
+186-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+187            android:theme="@style/ThemeTransparent" />
+187-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+188
+189        <receiver
+189-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+190            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+190-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-111
+191            android:enabled="true"
+191-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+192            android:exported="false" />
+192-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+193
+194        <meta-data
+194-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+195            android:name="io.flutter.embedded_views_preview"
+195-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+196            android:value="true" />
+196-->[:flutter_inappwebview] /Users/auwais/StudioProjects/E-learning-App/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+197
+198        <provider
+198-->[:share_plus] /Users/auwais/StudioProjects/E-learning-App/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+199            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+199-->[:share_plus] /Users/auwais/StudioProjects/E-learning-App/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+200            android:authorities="com.Tlabs.miniGuru.flutter.share_provider"
+200-->[:share_plus] /Users/auwais/StudioProjects/E-learning-App/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+201            android:exported="false"
+201-->[:share_plus] /Users/auwais/StudioProjects/E-learning-App/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+202            android:grantUriPermissions="true" >
+202-->[:share_plus] /Users/auwais/StudioProjects/E-learning-App/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+203            <meta-data
+203-->[:image_picker_android] /Users/auwais/StudioProjects/E-learning-App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+204                android:name="android.support.FILE_PROVIDER_PATHS"
+204-->[:image_picker_android] /Users/auwais/StudioProjects/E-learning-App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+205                android:resource="@xml/flutter_share_file_paths" />
+205-->[:image_picker_android] /Users/auwais/StudioProjects/E-learning-App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+206        </provider>
+207
+208        <receiver
+208-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:42:9-49:20
+209            android:name="com.razorpay.RzpTokenReceiver"
+209-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:43:13-57
+210            android:exported="true" >
+210-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:44:13-36
+211            <intent-filter>
+211-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:46:13-48:29
+212                <action android:name="rzp.device_token.share" />
+212-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:13-61
+212-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:21-58
+213            </intent-filter>
+214        </receiver>
+215
+216        <activity
+216-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:51:9-59:20
+217            android:name="com.razorpay.CheckoutActivity"
+217-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:52:13-57
+218            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+218-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:53:13-83
+219            android:exported="false"
+219-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:54:13-37
+220            android:theme="@style/CheckoutTheme" >
+220-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:55:13-49
+221            <intent-filter>
+221-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:56:13-58:29
+222                <action android:name="android.intent.action.MAIN" />
+222-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:29:17-68
+222-->/Users/auwais/StudioProjects/E-learning-App/android/app/src/main/AndroidManifest.xml:29:25-66
+223            </intent-filter>
+224        </activity>
+225
+226        <meta-data
+226-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:61:9-63:58
+227            android:name="com.razorpay.plugin.googlepay_all"
+227-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:62:13-61
+228            android:value="com.razorpay.RzpGpayMerged" />
+228-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:63:13-55
+229
+230        <activity
+230-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:29:9-46:20
+231            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+231-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:30:13-80
+232            android:excludeFromRecents="true"
+232-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:31:13-46
+233            android:exported="true"
+233-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:32:13-36
+234            android:launchMode="singleTask"
+234-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:33:13-44
+235            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+235-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:34:13-72
+236            <intent-filter>
+236-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:35:13-45:29
+237                <action android:name="android.intent.action.VIEW" />
+237-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:12:13-65
+237-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:12:21-62
+238
+239                <category android:name="android.intent.category.DEFAULT" />
+239-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:38:17-76
+239-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:38:27-73
+240                <category android:name="android.intent.category.BROWSABLE" />
+240-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:21:13-74
+240-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:21:23-71
+241
+242                <data
+242-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:14:13-16:38
+243                    android:host="firebase.auth"
+244                    android:path="/"
+245                    android:scheme="genericidp" />
+245-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:16:17-35
+246            </intent-filter>
+247        </activity>
+248        <activity
+248-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:47:9-64:20
+249            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+249-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:48:13-79
+250            android:excludeFromRecents="true"
+250-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:49:13-46
+251            android:exported="true"
+251-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:50:13-36
+252            android:launchMode="singleTask"
+252-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:51:13-44
+253            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+253-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:52:13-72
+254            <intent-filter>
+254-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:53:13-63:29
+255                <action android:name="android.intent.action.VIEW" />
+255-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:12:13-65
+255-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:12:21-62
+256
+257                <category android:name="android.intent.category.DEFAULT" />
+257-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:38:17-76
+257-->[com.google.firebase:firebase-auth:22.0.0] /Users/auwais/.gradle/caches/transforms-3/e7f0c2ccca178a16202bce082979d5e1/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:38:27-73
+258                <category android:name="android.intent.category.BROWSABLE" />
+258-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:21:13-74
+258-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:21:23-71
+259
+260                <data
+260-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:14:13-16:38
+261                    android:host="firebase.auth"
+262                    android:path="/"
+263                    android:scheme="recaptcha" />
+263-->[com.razorpay:checkout:1.6.35] /Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:16:17-35
+264            </intent-filter>
+265        </activity>
+266
+267        <provider
+267-->[com.google.firebase:firebase-common:20.3.2] /Users/auwais/.gradle/caches/transforms-3/026de80ea9d0b63bfc94ec9a10c1d73c/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+268            android:name="com.google.firebase.provider.FirebaseInitProvider"
+268-->[com.google.firebase:firebase-common:20.3.2] /Users/auwais/.gradle/caches/transforms-3/026de80ea9d0b63bfc94ec9a10c1d73c/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+269            android:authorities="com.Tlabs.miniGuru.firebaseinitprovider"
+269-->[com.google.firebase:firebase-common:20.3.2] /Users/auwais/.gradle/caches/transforms-3/026de80ea9d0b63bfc94ec9a10c1d73c/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+270            android:directBootAware="true"
+270-->[com.google.firebase:firebase-common:20.3.2] /Users/auwais/.gradle/caches/transforms-3/026de80ea9d0b63bfc94ec9a10c1d73c/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+271            android:exported="false"
+271-->[com.google.firebase:firebase-common:20.3.2] /Users/auwais/.gradle/caches/transforms-3/026de80ea9d0b63bfc94ec9a10c1d73c/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+272            android:initOrder="100" />
+272-->[com.google.firebase:firebase-common:20.3.2] /Users/auwais/.gradle/caches/transforms-3/026de80ea9d0b63bfc94ec9a10c1d73c/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+273
+274        <activity
+274-->[com.google.android.gms:play-services-auth:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a4e089d05200efbcde643c35576d88f5/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+275            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+275-->[com.google.android.gms:play-services-auth:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a4e089d05200efbcde643c35576d88f5/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+276            android:excludeFromRecents="true"
+276-->[com.google.android.gms:play-services-auth:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a4e089d05200efbcde643c35576d88f5/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+277            android:exported="false"
+277-->[com.google.android.gms:play-services-auth:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a4e089d05200efbcde643c35576d88f5/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+278            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+278-->[com.google.android.gms:play-services-auth:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a4e089d05200efbcde643c35576d88f5/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+279        <!--
+280            Service handling Google Sign-In user revocation. For apps that do not integrate with
+281            Google Sign-In, this service will never be started.
+282        -->
+283        <service
+283-->[com.google.android.gms:play-services-auth:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a4e089d05200efbcde643c35576d88f5/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+284            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+284-->[com.google.android.gms:play-services-auth:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a4e089d05200efbcde643c35576d88f5/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+285            android:exported="true"
+285-->[com.google.android.gms:play-services-auth:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a4e089d05200efbcde643c35576d88f5/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+286            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+286-->[com.google.android.gms:play-services-auth:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a4e089d05200efbcde643c35576d88f5/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+287        <uses-library
+287-->[com.google.android.gms:play-services-maps:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a78b5a06006a5ee9f3cb63826d61ed33/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+288            android:name="org.apache.http.legacy"
+288-->[com.google.android.gms:play-services-maps:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a78b5a06006a5ee9f3cb63826d61ed33/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+289            android:required="false" />
+289-->[com.google.android.gms:play-services-maps:17.0.0] /Users/auwais/.gradle/caches/transforms-3/a78b5a06006a5ee9f3cb63826d61ed33/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+290
+291        <activity
+291-->[com.google.android.gms:play-services-base:18.0.1] /Users/auwais/.gradle/caches/transforms-3/8f31701e663a8c1514b353cc4d7239a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+292            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+292-->[com.google.android.gms:play-services-base:18.0.1] /Users/auwais/.gradle/caches/transforms-3/8f31701e663a8c1514b353cc4d7239a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+293            android:exported="false"
+293-->[com.google.android.gms:play-services-base:18.0.1] /Users/auwais/.gradle/caches/transforms-3/8f31701e663a8c1514b353cc4d7239a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+294            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+294-->[com.google.android.gms:play-services-base:18.0.1] /Users/auwais/.gradle/caches/transforms-3/8f31701e663a8c1514b353cc4d7239a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+295
+296        <receiver
+296-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:29:9-33:20
+297            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+297-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:30:13-85
+298            android:enabled="true"
+298-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:31:13-35
+299            android:exported="false" >
+299-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:32:13-37
+300        </receiver>
+301
+302        <service
+302-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:35:9-38:40
+303            android:name="com.google.android.gms.measurement.AppMeasurementService"
+303-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:36:13-84
+304            android:enabled="true"
+304-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:37:13-35
+305            android:exported="false" />
+305-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:38:13-37
+306        <service
+306-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:39:9-43:72
+307            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+307-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:40:13-87
+308            android:enabled="true"
+308-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:41:13-35
+309            android:exported="false"
+309-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:42:13-37
+310            android:permission="android.permission.BIND_JOB_SERVICE" />
+310-->[com.google.android.gms:play-services-measurement:21.2.2] /Users/auwais/.gradle/caches/transforms-3/b1d6f7fac4422d94bc4e165c9ed5edea/transformed/jetified-play-services-measurement-21.2.2/AndroidManifest.xml:43:13-69
+311
+312        <meta-data
+312-->[com.google.android.gms:play-services-basement:18.1.0] /Users/auwais/.gradle/caches/transforms-3/ad3fb7e0e58165c0e3c87f8f0d79631f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+313            android:name="com.google.android.gms.version"
+313-->[com.google.android.gms:play-services-basement:18.1.0] /Users/auwais/.gradle/caches/transforms-3/ad3fb7e0e58165c0e3c87f8f0d79631f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+314            android:value="@integer/google_play_services_version" />
+314-->[com.google.android.gms:play-services-basement:18.1.0] /Users/auwais/.gradle/caches/transforms-3/ad3fb7e0e58165c0e3c87f8f0d79631f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+315
+316        <provider
+316-->[androidx.emoji2:emoji2:1.2.0] /Users/auwais/.gradle/caches/transforms-3/228419e26f5d253cbabc1a5dced15ed0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+317            android:name="androidx.startup.InitializationProvider"
+317-->[androidx.emoji2:emoji2:1.2.0] /Users/auwais/.gradle/caches/transforms-3/228419e26f5d253cbabc1a5dced15ed0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+318            android:authorities="com.Tlabs.miniGuru.androidx-startup"
+318-->[androidx.emoji2:emoji2:1.2.0] /Users/auwais/.gradle/caches/transforms-3/228419e26f5d253cbabc1a5dced15ed0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+319            android:exported="false" >
+319-->[androidx.emoji2:emoji2:1.2.0] /Users/auwais/.gradle/caches/transforms-3/228419e26f5d253cbabc1a5dced15ed0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+320            <meta-data
+320-->[androidx.emoji2:emoji2:1.2.0] /Users/auwais/.gradle/caches/transforms-3/228419e26f5d253cbabc1a5dced15ed0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+321                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+321-->[androidx.emoji2:emoji2:1.2.0] /Users/auwais/.gradle/caches/transforms-3/228419e26f5d253cbabc1a5dced15ed0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+322                android:value="androidx.startup" />
+322-->[androidx.emoji2:emoji2:1.2.0] /Users/auwais/.gradle/caches/transforms-3/228419e26f5d253cbabc1a5dced15ed0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+323            <meta-data
+323-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/auwais/.gradle/caches/transforms-3/49312778096aa9fd5ae6308578ecbdb0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+324                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+324-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/auwais/.gradle/caches/transforms-3/49312778096aa9fd5ae6308578ecbdb0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+325                android:value="androidx.startup" />
+325-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/auwais/.gradle/caches/transforms-3/49312778096aa9fd5ae6308578ecbdb0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+326            <meta-data
+326-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+327                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+327-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+328                android:value="androidx.startup" />
+328-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+329        </provider>
+330
+331        <uses-library
+331-->[androidx.window:window:1.0.0-beta04] /Users/auwais/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+332            android:name="androidx.window.extensions"
+332-->[androidx.window:window:1.0.0-beta04] /Users/auwais/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+333            android:required="false" />
+333-->[androidx.window:window:1.0.0-beta04] /Users/auwais/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+334        <uses-library
+334-->[androidx.window:window:1.0.0-beta04] /Users/auwais/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+335            android:name="androidx.window.sidecar"
+335-->[androidx.window:window:1.0.0-beta04] /Users/auwais/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+336            android:required="false" />
+336-->[androidx.window:window:1.0.0-beta04] /Users/auwais/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+337
+338        <receiver
+338-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+339            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+339-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+340            android:directBootAware="false"
+340-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+341            android:enabled="true"
+341-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+342            android:exported="true"
+342-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+343            android:permission="android.permission.DUMP" >
+343-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+344            <intent-filter>
+344-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+345                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+345-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+345-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+346            </intent-filter>
+347            <intent-filter>
+347-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+348                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+348-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+348-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+349            </intent-filter>
+350            <intent-filter>
+350-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+351                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+351-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+351-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+352            </intent-filter>
+353            <intent-filter>
+353-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+354                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+354-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+354-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/auwais/.gradle/caches/transforms-3/ef4c45e08659a72755f147d134c0e2af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+355            </intent-filter>
+356        </receiver>
+357    </application>
+358
+359</manifest>

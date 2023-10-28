@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: armeabi-v7a",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 486489339
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/armeabi-v7a/android_gradle_build.json\u0027 was up-to-date",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -836392083
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1859488327
+  }
+]

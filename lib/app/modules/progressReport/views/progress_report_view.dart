@@ -66,6 +66,7 @@ class ProgressReportView extends GetView<ProgressReportController> {
     //Goin Score Card
     final scoreCard = Row(
       children: [
+        //Score
         Expanded(
           flex: 1,
           child: Container(
@@ -111,6 +112,8 @@ class ProgressReportView extends GetView<ProgressReportController> {
             ),
           ),
         ),
+
+        //Wallet
         Expanded(
           flex: 1,
           child: Container(
@@ -141,9 +144,7 @@ class ProgressReportView extends GetView<ProgressReportController> {
                       Row(
                         children: [
                           const Icon(Icons.currency_rupee_outlined, color: secondaryColor,size: 20,),
-                          Obx(() {
-                            return Text('${homeController.walletBal.value}/-', style: headline);
-                          }),
+                          Obx(()=> Text('${homeController.walletBal.value}/-', style: headline),),
                         ],
                       )
                     ],

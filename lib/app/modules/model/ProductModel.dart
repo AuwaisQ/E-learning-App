@@ -18,7 +18,7 @@ class ProductModel {
   });
 
   int itemId;
-  int categoryId;
+  dynamic categoryId;
   String productName;
   String image;
   String description;
