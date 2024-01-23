@@ -1,0 +1,14 @@
+dev.fluttercommunity.plus.share.share_plus-lifecycle-runtime-2.3.1-0 /Users/auwais/.gradle/caches/transforms-3/3f72585791551b99ffe7042bd9a470de/transformed/lifecycle-runtime-2.3.1/res
+dev.fluttercommunity.plus.share.share_plus-jetified-window-1.0.0-beta04-1 /Users/auwais/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/res
+dev.fluttercommunity.plus.share.share_plus-core-1.7.0-2 /Users/auwais/.gradle/caches/transforms-3/6e1622ce363af17a49dc7fd1d800414b/transformed/core-1.7.0/res
+dev.fluttercommunity.plus.share.share_plus-jetified-core-ktx-1.7.0-3 /Users/auwais/.gradle/caches/transforms-3/7209a022edf6559ab54eb50532f75447/transformed/jetified-core-ktx-1.7.0/res
+dev.fluttercommunity.plus.share.share_plus-jetified-annotation-experimental-1.1.0-4 /Users/auwais/.gradle/caches/transforms-3/a6362f1fb79a6245a27920bb99ff99c3/transformed/jetified-annotation-experimental-1.1.0/res
+dev.fluttercommunity.plus.share.share_plus-jetified-window-java-1.0.0-beta04-5 /Users/auwais/.gradle/caches/transforms-3/ed438543a8e9ffa856a2b095c92f0ea3/transformed/jetified-window-java-1.0.0-beta04/res
+dev.fluttercommunity.plus.share.share_plus-main-6 /Users/auwais/.pub-cache/hosted/pub.dev/share_plus-5.0.0/android/src/main/res
+dev.fluttercommunity.plus.share.share_plus-release-7 /Users/auwais/.pub-cache/hosted/pub.dev/share_plus-5.0.0/android/src/release/res
+dev.fluttercommunity.plus.share.share_plus-pngs-8 /Users/auwais/StudioProjects/E-learning-App/build/share_plus/generated/res/pngs/release
+dev.fluttercommunity.plus.share.share_plus-resValues-9 /Users/auwais/StudioProjects/E-learning-App/build/share_plus/generated/res/resValues/release
+dev.fluttercommunity.plus.share.share_plus-rs-10 /Users/auwais/StudioProjects/E-learning-App/build/share_plus/generated/res/rs/release
+dev.fluttercommunity.plus.share.share_plus-mergeReleaseResources-11 /Users/auwais/StudioProjects/E-learning-App/build/share_plus/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.fluttercommunity.plus.share.share_plus-mergeReleaseResources-12 /Users/auwais/StudioProjects/E-learning-App/build/share_plus/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.fluttercommunity.plus.share.share_plus-merged_res-13 /Users/auwais/StudioProjects/E-learning-App/build/share_plus/intermediates/merged_res/release

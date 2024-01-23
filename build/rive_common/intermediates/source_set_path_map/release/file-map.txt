@@ -1,0 +1,12 @@
+app.rive.rive.rive_common-core-1.6.0-0 /Users/auwais/.gradle/caches/transforms-3/1141b72fb8be4e566e7814849b1aa3a2/transformed/core-1.6.0/res
+app.rive.rive.rive_common-jetified-window-1.0.0-beta04-1 /Users/auwais/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/res
+app.rive.rive.rive_common-jetified-annotation-experimental-1.1.0-2 /Users/auwais/.gradle/caches/transforms-3/a6362f1fb79a6245a27920bb99ff99c3/transformed/jetified-annotation-experimental-1.1.0/res
+app.rive.rive.rive_common-jetified-window-java-1.0.0-beta04-3 /Users/auwais/.gradle/caches/transforms-3/ed438543a8e9ffa856a2b095c92f0ea3/transformed/jetified-window-java-1.0.0-beta04/res
+app.rive.rive.rive_common-main-4 /Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/src/main/res
+app.rive.rive.rive_common-release-5 /Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/src/release/res
+app.rive.rive.rive_common-pngs-6 /Users/auwais/StudioProjects/E-learning-App/build/rive_common/generated/res/pngs/release
+app.rive.rive.rive_common-resValues-7 /Users/auwais/StudioProjects/E-learning-App/build/rive_common/generated/res/resValues/release
+app.rive.rive.rive_common-rs-8 /Users/auwais/StudioProjects/E-learning-App/build/rive_common/generated/res/rs/release
+app.rive.rive.rive_common-mergeReleaseResources-9 /Users/auwais/StudioProjects/E-learning-App/build/rive_common/intermediates/incremental/release/mergeReleaseResources/merged.dir
+app.rive.rive.rive_common-mergeReleaseResources-10 /Users/auwais/StudioProjects/E-learning-App/build/rive_common/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+app.rive.rive.rive_common-merged_res-11 /Users/auwais/StudioProjects/E-learning-App/build/rive_common/intermediates/merged_res/release

@@ -11,11 +11,11 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": 486489339
+    "memoizedHashCode": -450479763
   },
   {
     "level_": 0,
-    "message_": "JSON \u0027/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/armeabi-v7a/android_gradle_build.json\u0027 was up-to-date",
+    "message_": "rebuilding JSON /Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/armeabi-v7a/android_gradle_build.json due to:",
     "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
     "tag_": "release|armeabi-v7a",
     "diagnosticCode_": 0,
@@ -25,7 +25,147 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": -836392083
+    "memoizedHashCode": 1397313896
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json /Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1133866948
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file /Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/armeabi-v7a/metadata_generation_command.txt, will remove stale json folder",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -931624422
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -127216966
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/armeabi-v7a\u0027",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 348141909
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/armeabi-v7a\u0027",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 799608417
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : /Users/auwais/Library/Android/sdk/cmake/3.18.1/bin/cmake\narguments : \n-H/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/Users/auwais/Library/Android/sdk/ndk/25.1.8937393\n-DCMAKE_ANDROID_NDK\u003d/Users/auwais/Library/Android/sdk/ndk/25.1.8937393\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/auwais/Library/Android/sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/Users/auwais/Library/Android/sdk/cmake/3.18.1/bin/ninja\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/auwais/StudioProjects/E-learning-App/build/rive_common/intermediates/cxx/RelWithDebInfo/1i1c356u/obj/armeabi-v7a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/auwais/StudioProjects/E-learning-App/build/rive_common/intermediates/cxx/RelWithDebInfo/1i1c356u/obj/armeabi-v7a\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-B/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1602150372
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : /Users/auwais/Library/Android/sdk/cmake/3.18.1/bin/cmake\narguments : \n-H/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/Users/auwais/Library/Android/sdk/ndk/25.1.8937393\n-DCMAKE_ANDROID_NDK\u003d/Users/auwais/Library/Android/sdk/ndk/25.1.8937393\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/auwais/Library/Android/sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/Users/auwais/Library/Android/sdk/cmake/3.18.1/bin/ninja\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/auwais/StudioProjects/E-learning-App/build/rive_common/intermediates/cxx/RelWithDebInfo/1i1c356u/obj/armeabi-v7a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/auwais/StudioProjects/E-learning-App/build/rive_common/intermediates/cxx/RelWithDebInfo/1i1c356u/obj/armeabi-v7a\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-B/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 260063003
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of /Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/armeabi-v7a/compile_commands.json.bin normally",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1873672486
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -439563217
+  },
+  {
+    "level_": 0,
+    "message_": "write command file /Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/armeabi-v7a/metadata_generation_command.txt",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1714632548
   },
   {
     "level_": 0,
@@ -39,6 +179,6 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": -1859488327
+    "memoizedHashCode": 1498509867
   }
 ]

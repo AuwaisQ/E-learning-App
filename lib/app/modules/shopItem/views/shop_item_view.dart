@@ -151,20 +151,17 @@ class ShopItemView extends GetView<ShopItemController> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Hero(
-                  tag: 'flutterLogo${shopController.productArgs[0]}',
-                  child: Container(
-                    height: size.width * 1,
-                    width: size.width,
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(15),
-                        border: Border.all(color: Colors.grey.shade300),
-                        image: DecorationImage(
-                          image: NetworkImage(ApiServices().productImageURL +
-                              shopController.productArgs[1]),
-                          fit: BoxFit.cover,
-                        )),
-                  ),
+                Container(
+                  height: size.width * 1,
+                  width: size.width,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      border: Border.all(color: Colors.grey.shade300),
+                      image: DecorationImage(
+                        image: NetworkImage(ApiServices().productImageURL +
+                            shopController.productArgs[1]),
+                        fit: BoxFit.cover,
+                      )),
                 ),
                 SizedBox(height: size.width * 0.05),
                 Row(

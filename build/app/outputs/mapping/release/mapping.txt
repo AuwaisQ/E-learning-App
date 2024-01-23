@@ -3,8 +3,8 @@
 # min_api: 24
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.0"}
-# pg_map_id: 17b4fa2
-# pg_map_hash: SHA-256 17b4fa2150cc6432f6ac1d5b8634ba6a7c5de9391988fd711e033eca8f68a192
+# pg_map_id: 5416ae8
+# pg_map_hash: SHA-256 5416ae8997c18ae40a10bf153aab1a8147e8d7948271bfc4aadd12cc21f1a563
 a1.FlvExtractor$$ExternalSyntheticLambda0 -> a1.b:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -42050,19 +42050,20 @@ com.razorpay.CheckoutBridge$WebViewSafeCheckCallback -> com.razorpay.p:
     void unSecure() -> a
     void secure() -> b
 com.razorpay.CheckoutInteractor -> com.razorpay.r:
-    void onSubmit(java.lang.String) -> B
-    java.lang.String getSdkPlugins() -> C
-    void registerSmsListener() -> E
-    void onCheckoutRendered() -> F
-    void requestExtraAnalyticsData() -> I
-    void invokePopup(java.lang.String) -> M
-    void sendDataToWebView(int,java.lang.String) -> N
-    void toast(java.lang.String,int) -> O
-    void onError(java.lang.String) -> P
-    void showAlertDialog(java.lang.String,java.lang.String,java.lang.String) -> R
-    void onFault(java.lang.String) -> S
-    void setMerchantOptions(java.lang.String) -> T
-    void onLoad() -> U
+    void unregisterSmsListener() -> A
+    void onSubmit(java.lang.String) -> C
+    java.lang.String getSdkPlugins() -> D
+    void registerSmsListener() -> F
+    void onCheckoutRendered() -> G
+    void requestExtraAnalyticsData() -> J
+    void invokePopup(java.lang.String) -> N
+    void sendDataToWebView(int,java.lang.String) -> O
+    void toast(java.lang.String,int) -> P
+    void onError(java.lang.String) -> Q
+    void showAlertDialog(java.lang.String,java.lang.String,java.lang.String) -> S
+    void onFault(java.lang.String) -> T
+    void setMerchantOptions(java.lang.String) -> U
+    void onLoad() -> V
     void onComplete(java.lang.String) -> a
     void setDeviceToken(java.lang.String) -> d
     void isWebViewSafeOnUI(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> f
@@ -42070,33 +42071,33 @@ com.razorpay.CheckoutInteractor -> com.razorpay.r:
     void onDismiss(java.lang.String) -> k
     void setDimensions(int,int) -> l
     void callNativeIntent(java.lang.String,java.lang.String) -> m
-    void isWebViewSafe(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> o
-    void setAppToken(java.lang.String) -> q
-    boolean isUserRegisteredOnUPI(java.lang.String) -> t
-    void getPdfString(java.lang.String,java.lang.String) -> u
-    void onCheckoutBackPress() -> w
-    boolean isUserRegistered(java.lang.String) -> y
-    void unregisterSmsListener() -> z
+    void isWebViewSafe(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> p
+    void setAppToken(java.lang.String) -> r
+    boolean isUserRegisteredOnUPI(java.lang.String) -> u
+    void getPdfString(java.lang.String,java.lang.String) -> v
+    void onCheckoutBackPress() -> x
+    boolean isUserRegistered(java.lang.String) -> z
 com.razorpay.CheckoutPresenter -> com.razorpay.s:
-    void destroyActivity(int,java.lang.String) -> A
-    boolean setOptions(android.os.Bundle,boolean) -> D
-    void onPageStarted(int,android.webkit.WebView,java.lang.String) -> G
-    void fetchCondfig() -> H
-    void backPressed(java.util.Map) -> J
-    void setCheckoutLoadStartAt() -> K
-    void handleCardSaving() -> L
-    java.lang.String getProgressBarColor() -> Q
+    void destroyActivity(int,java.lang.String) -> B
+    boolean setOptions(android.os.Bundle,boolean) -> E
+    void onPageStarted(int,android.webkit.WebView,java.lang.String) -> H
+    void fetchCondfig() -> I
+    void backPressed(java.util.Map) -> K
+    void setCheckoutLoadStartAt() -> L
+    void handleCardSaving() -> M
+    java.lang.String getProgressBarColor() -> R
     void onProgressChanges(int,int) -> b
     void cleanUpOnDestroy() -> c
     void sendOtpPermissionCallback(boolean) -> e
     void loadForm(java.lang.String) -> g
     void saveInstanceState(android.os.Bundle) -> h
     void onPageFinished(int,android.webkit.WebView,java.lang.String) -> j
-    void setUpAddOn() -> n
-    void onActivityResultReceived(int,int,android.content.Intent) -> r
-    void showLoaderDialog(int,java.lang.String) -> s
-    void passPrefillToSegment() -> v
-    boolean isAllowRotation() -> x
+    void onResumeTriggered() -> n
+    void setUpAddOn() -> o
+    void onActivityResultReceived(int,int,android.content.Intent) -> s
+    void showLoaderDialog(int,java.lang.String) -> t
+    void passPrefillToSegment() -> w
+    boolean isAllowRotation() -> y
 com.razorpay.CheckoutPresenterImpl -> com.razorpay.u:
     java.lang.String checkoutContent -> h
     java.util.Queue checkoutMessageQueue -> C
@@ -42109,6 +42110,7 @@ com.razorpay.CheckoutPresenterImpl -> com.razorpay.u:
     com.google.android.gms.tasks.Task automaticRetrievalTask -> z
     java.lang.String sanitizedChallanEncodedString -> v
     boolean nameNotFound_retryStatus -> y
+    boolean truecallerLoginAttempt -> E
     java.lang.String merchantKey -> c
     long preloadCompleteDuration -> m
     java.lang.String dashOptions -> e
@@ -42128,77 +42130,78 @@ com.razorpay.CheckoutPresenterImpl -> com.razorpay.u:
     long preloadAbortDuration -> n
     int merchantLogoResourceId -> r
     boolean isCheckoutLoaded -> D
-    void destroyActivity(int,java.lang.String) -> A
-    void onSubmit(java.lang.String) -> B
-    java.lang.String getSdkPlugins() -> C
-    boolean setOptions(android.os.Bundle,boolean) -> D
-    void registerSmsListener() -> E
-    void onCheckoutRendered() -> F
-    void onPageStarted(int,android.webkit.WebView,java.lang.String) -> G
-    void fetchCondfig() -> H
-    void requestExtraAnalyticsData() -> I
-    void backPressed(java.util.Map) -> J
-    void setCheckoutLoadStartAt() -> K
-    void handleCardSaving() -> L
-    void invokePopup(java.lang.String) -> M
-    void sendDataToWebView(int,java.lang.String) -> N
-    void toast(java.lang.String,int) -> O
-    void onError(java.lang.String) -> P
-    java.lang.String getProgressBarColor() -> Q
-    void showAlertDialog(java.lang.String,java.lang.String,java.lang.String) -> R
-    void onFault(java.lang.String) -> S
-    void setMerchantOptions(java.lang.String) -> T
-    void onLoad() -> U
-    boolean access$000(com.razorpay.CheckoutPresenterImpl) -> V
-    boolean access$002(com.razorpay.CheckoutPresenterImpl,boolean) -> W
-    void access$100(com.razorpay.CheckoutPresenterImpl,java.lang.String) -> X
-    void access$200(com.razorpay.CheckoutPresenterImpl) -> Y
-    boolean access$302(com.razorpay.CheckoutPresenterImpl,boolean) -> Z
+    void unregisterSmsListener() -> A
+    void destroyActivity(int,java.lang.String) -> B
+    void onSubmit(java.lang.String) -> C
+    java.lang.String getSdkPlugins() -> D
+    boolean setOptions(android.os.Bundle,boolean) -> E
+    void registerSmsListener() -> F
+    void onCheckoutRendered() -> G
+    void onPageStarted(int,android.webkit.WebView,java.lang.String) -> H
+    void fetchCondfig() -> I
+    void requestExtraAnalyticsData() -> J
+    void backPressed(java.util.Map) -> K
+    void setCheckoutLoadStartAt() -> L
+    void handleCardSaving() -> M
+    void invokePopup(java.lang.String) -> N
+    void sendDataToWebView(int,java.lang.String) -> O
+    void toast(java.lang.String,int) -> P
+    void onError(java.lang.String) -> Q
+    java.lang.String getProgressBarColor() -> R
+    void showAlertDialog(java.lang.String,java.lang.String,java.lang.String) -> S
+    void onFault(java.lang.String) -> T
+    void setMerchantOptions(java.lang.String) -> U
+    void onLoad() -> V
+    boolean access$000(com.razorpay.CheckoutPresenterImpl) -> W
+    boolean access$002(com.razorpay.CheckoutPresenterImpl,boolean) -> X
+    void access$100(com.razorpay.CheckoutPresenterImpl,java.lang.String) -> Y
+    void access$200(com.razorpay.CheckoutPresenterImpl) -> Z
     void onComplete(java.lang.String) -> a
-    java.lang.String access$400(com.razorpay.CheckoutPresenterImpl) -> a0
+    boolean access$302(com.razorpay.CheckoutPresenterImpl,boolean) -> a0
     void onProgressChanges(int,int) -> b
-    void access$500(com.razorpay.CheckoutPresenterImpl,int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> b0
+    java.lang.String access$400(com.razorpay.CheckoutPresenterImpl) -> b0
     void cleanUpOnDestroy() -> c
-    void addAnalyticsData(org.json.JSONObject) -> c0
+    void access$500(com.razorpay.CheckoutPresenterImpl,int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> c0
     void setDeviceToken(java.lang.String) -> d
-    void enableAddon(org.json.JSONObject) -> d0
+    void addAnalyticsData(org.json.JSONObject) -> d0
     void sendOtpPermissionCallback(boolean) -> e
-    void executeWebViewCallback(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> e0
+    void enableAddon(org.json.JSONObject) -> e0
     void isWebViewSafeOnUI(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> f
-    java.lang.String getHandleMessageFormattedString() -> f0
+    void executeWebViewCallback(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> f0
     void loadForm(java.lang.String) -> g
-    org.json.JSONObject getOptionsForHandleMessage() -> g0
+    java.lang.String getHandleMessageFormattedString() -> g0
     void saveInstanceState(android.os.Bundle) -> h
-    void handleRetry(java.lang.String) -> h0
+    org.json.JSONObject getOptionsForHandleMessage() -> h0
     void setPaymentID(java.lang.String) -> i
-    void helpersReset() -> i0
+    void handleRetry(java.lang.String) -> i0
     void onPageFinished(int,android.webkit.WebView,java.lang.String) -> j
-    void injectJs(java.lang.String) -> j0
+    void helpersReset() -> j0
     void onDismiss(java.lang.String) -> k
-    boolean isMagicPresent() -> k0
+    void injectJs(java.lang.String) -> k0
     void setDimensions(int,int) -> l
-    void loadResultToWebView(org.json.JSONObject,java.lang.String) -> l0
+    boolean isMagicPresent() -> l0
     void callNativeIntent(java.lang.String,java.lang.String) -> m
-    void markPaymentCancelled() -> m0
-    void setUpAddOn() -> n
-    void onComplete(org.json.JSONObject) -> n0
-    void isWebViewSafe(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> o
-    void onError(org.json.JSONObject) -> o0
-    void primaryWebviewPageFinished(java.lang.String,android.webkit.WebView) -> p0
-    void setAppToken(java.lang.String) -> q
-    void savePrefillData(org.json.JSONObject) -> q0
-    void onActivityResultReceived(int,int,android.content.Intent) -> r
-    void sendQueuedMessagesToCheckout() -> r0
-    void showLoaderDialog(int,java.lang.String) -> s
-    void startSmsRetrievers() -> s0
-    boolean isUserRegisteredOnUPI(java.lang.String) -> t
-    void unregisterReceivers() -> t0
-    void getPdfString(java.lang.String,java.lang.String) -> u
-    void passPrefillToSegment() -> v
-    void onCheckoutBackPress() -> w
-    boolean isAllowRotation() -> x
-    boolean isUserRegistered(java.lang.String) -> y
-    void unregisterSmsListener() -> z
+    void loadResultToWebView(org.json.JSONObject,java.lang.String) -> m0
+    void onResumeTriggered() -> n
+    void markPaymentCancelled() -> n0
+    void setUpAddOn() -> o
+    void onComplete(org.json.JSONObject) -> o0
+    void isWebViewSafe(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> p
+    void onError(org.json.JSONObject) -> p0
+    void primaryWebviewPageFinished(java.lang.String,android.webkit.WebView) -> q0
+    void setAppToken(java.lang.String) -> r
+    void savePrefillData(org.json.JSONObject) -> r0
+    void onActivityResultReceived(int,int,android.content.Intent) -> s
+    void sendQueuedMessagesToCheckout() -> s0
+    void showLoaderDialog(int,java.lang.String) -> t
+    void startSmsRetrievers() -> t0
+    boolean isUserRegisteredOnUPI(java.lang.String) -> u
+    void unregisterReceivers() -> u0
+    void getPdfString(java.lang.String,java.lang.String) -> v
+    void passPrefillToSegment() -> w
+    void onCheckoutBackPress() -> x
+    boolean isAllowRotation() -> y
+    boolean isUserRegistered(java.lang.String) -> z
 com.razorpay.CheckoutPresenterImpl$CheckoutView -> com.razorpay.t:
     void hideProgressBar() -> a
     void loadDataWithBaseURL(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> b
@@ -42458,33 +42461,34 @@ com.razorpay.PluginCheckoutBridge -> com.razorpay.i1:
     com.razorpay.PluginCheckoutInteractor pluginCheckoutInteractor -> e
     com.razorpay.PluginCheckoutInteractor access$000(com.razorpay.PluginCheckoutBridge) -> e
 com.razorpay.PluginCheckoutInteractor -> com.razorpay.j1:
-    void processPayment(java.lang.String) -> p
+    void processPayment(java.lang.String) -> q
 com.razorpay.PluginOtpElfCheckoutPresenterImpl -> com.razorpay.k1:
-    java.util.HashMap pluginsMap -> H
-    boolean isExtRzpPluginActive -> I
-    com.razorpay.RzpInternalCallback rzpInternalCallback -> K
-    com.razorpay.RzpPlugin extActiveRzpPluginInstance -> J
-    void destroyActivity(int,java.lang.String) -> A
-    void onSubmit(java.lang.String) -> B
-    java.lang.String getSdkPlugins() -> C
-    boolean setOptions(android.os.Bundle,boolean) -> D
-    void registerSmsListener() -> E
-    void onCheckoutRendered() -> F
-    void onPageStarted(int,android.webkit.WebView,java.lang.String) -> G
-    void fetchCondfig() -> H
-    void requestExtraAnalyticsData() -> I
-    void backPressed(java.util.Map) -> J
-    void setCheckoutLoadStartAt() -> K
-    void handleCardSaving() -> L
-    void invokePopup(java.lang.String) -> M
-    void sendDataToWebView(int,java.lang.String) -> N
-    void toast(java.lang.String,int) -> O
-    void onError(java.lang.String) -> P
-    java.lang.String getProgressBarColor() -> Q
-    void showAlertDialog(java.lang.String,java.lang.String,java.lang.String) -> R
-    void onFault(java.lang.String) -> S
-    void setMerchantOptions(java.lang.String) -> T
-    void onLoad() -> U
+    java.util.HashMap pluginsMap -> I
+    boolean isExtRzpPluginActive -> J
+    com.razorpay.RzpPlugin extActiveRzpPluginInstance -> K
+    com.razorpay.RzpInternalCallback rzpInternalCallback -> L
+    void unregisterSmsListener() -> A
+    void destroyActivity(int,java.lang.String) -> B
+    void onSubmit(java.lang.String) -> C
+    java.lang.String getSdkPlugins() -> D
+    boolean setOptions(android.os.Bundle,boolean) -> E
+    void registerSmsListener() -> F
+    void onCheckoutRendered() -> G
+    void onPageStarted(int,android.webkit.WebView,java.lang.String) -> H
+    void fetchCondfig() -> I
+    void requestExtraAnalyticsData() -> J
+    void backPressed(java.util.Map) -> K
+    void setCheckoutLoadStartAt() -> L
+    void handleCardSaving() -> M
+    void invokePopup(java.lang.String) -> N
+    void sendDataToWebView(int,java.lang.String) -> O
+    void toast(java.lang.String,int) -> P
+    void onError(java.lang.String) -> Q
+    java.lang.String getProgressBarColor() -> R
+    void showAlertDialog(java.lang.String,java.lang.String,java.lang.String) -> S
+    void onFault(java.lang.String) -> T
+    void setMerchantOptions(java.lang.String) -> U
+    void onLoad() -> V
     void onComplete(java.lang.String) -> a
     void onProgressChanges(int,int) -> b
     void cleanUpOnDestroy() -> c
@@ -42492,29 +42496,29 @@ com.razorpay.PluginOtpElfCheckoutPresenterImpl -> com.razorpay.k1:
     void sendOtpPermissionCallback(boolean) -> e
     void isWebViewSafeOnUI(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> f
     void loadForm(java.lang.String) -> g
-    org.json.JSONObject getOptionsForHandleMessage() -> g0
     void saveInstanceState(android.os.Bundle) -> h
+    org.json.JSONObject getOptionsForHandleMessage() -> h0
     void setPaymentID(java.lang.String) -> i
     void onPageFinished(int,android.webkit.WebView,java.lang.String) -> j
     void onDismiss(java.lang.String) -> k
-    boolean isMagicPresent() -> k0
     void setDimensions(int,int) -> l
+    boolean isMagicPresent() -> l0
     void callNativeIntent(java.lang.String,java.lang.String) -> m
-    void setUpAddOn() -> n
-    void isWebViewSafe(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> o
-    void onError(org.json.JSONObject) -> o0
-    void processPayment(java.lang.String) -> p
-    void setAppToken(java.lang.String) -> q
-    void onActivityResultReceived(int,int,android.content.Intent) -> r
-    void showLoaderDialog(int,java.lang.String) -> s
-    boolean isUserRegisteredOnUPI(java.lang.String) -> t
-    void unregisterReceivers() -> t0
-    void getPdfString(java.lang.String,java.lang.String) -> u
-    void passPrefillToSegment() -> v
-    void onCheckoutBackPress() -> w
-    boolean isAllowRotation() -> x
-    boolean isUserRegistered(java.lang.String) -> y
-    void unregisterSmsListener() -> z
+    void onResumeTriggered() -> n
+    void setUpAddOn() -> o
+    void isWebViewSafe(int,com.razorpay.CheckoutBridge$WebViewSafeCheckCallback) -> p
+    void onError(org.json.JSONObject) -> p0
+    void processPayment(java.lang.String) -> q
+    void setAppToken(java.lang.String) -> r
+    void onActivityResultReceived(int,int,android.content.Intent) -> s
+    void showLoaderDialog(int,java.lang.String) -> t
+    boolean isUserRegisteredOnUPI(java.lang.String) -> u
+    void unregisterReceivers() -> u0
+    void getPdfString(java.lang.String,java.lang.String) -> v
+    void passPrefillToSegment() -> w
+    void onCheckoutBackPress() -> x
+    boolean isAllowRotation() -> y
+    boolean isUserRegistered(java.lang.String) -> z
 com.razorpay.PrimaryWebViewClient -> com.razorpay.l1:
     com.razorpay.CheckoutPresenter presenter -> a
     int maxRetryCount -> b
@@ -42657,19 +42661,19 @@ com.razorpay.c__h$ -> com.razorpay.x2:
 com.razorpay.d -> com.razorpay.y2:
 com.razorpay.d__1_ -> com.razorpay.z2:
 com.razorpay.d__B_ -> com.razorpay.a3:
-    com.razorpay.RzpAssist primaryRzpAssist -> E
-    com.razorpay.RzpAssist secondaryRzpAssist -> F
-    boolean isSecondaryRzpAssistEnabled -> G
-    void onPageStarted(int,android.webkit.WebView,java.lang.String) -> G
-    void backPressed(java.util.Map) -> J
+    com.razorpay.RzpAssist primaryRzpAssist -> F
+    com.razorpay.RzpAssist secondaryRzpAssist -> G
+    boolean isSecondaryRzpAssistEnabled -> H
+    void onPageStarted(int,android.webkit.WebView,java.lang.String) -> H
+    void backPressed(java.util.Map) -> K
     void onProgressChanges(int,int) -> b
-    void addAnalyticsData(org.json.JSONObject) -> c0
-    void enableAddon(org.json.JSONObject) -> d0
+    void addAnalyticsData(org.json.JSONObject) -> d0
+    void enableAddon(org.json.JSONObject) -> e0
     void setPaymentID(java.lang.String) -> i
-    void helpersReset() -> i0
     void onPageFinished(int,android.webkit.WebView,java.lang.String) -> j
-    void setUpAddOn() -> n
-    void primaryWebviewPageFinished(java.lang.String,android.webkit.WebView) -> p0
+    void helpersReset() -> j0
+    void setUpAddOn() -> o
+    void primaryWebviewPageFinished(java.lang.String,android.webkit.WebView) -> q0
 com.razorpay.d__w$ -> com.razorpay.b3:
     int a -> o
     java.lang.String b -> p

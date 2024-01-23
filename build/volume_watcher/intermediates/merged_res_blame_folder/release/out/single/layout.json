@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.magugi.volume_watcher-merged_res-10:/layout/notification_action.xml",
+        "source": "com.magugi.volume_watcher-core-1.6.0-0:/layout/notification_action.xml"
+    },
+    {
+        "merged": "com.magugi.volume_watcher-merged_res-10:/layout/notification_template_icon_group.xml",
+        "source": "com.magugi.volume_watcher-core-1.6.0-0:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.magugi.volume_watcher-merged_res-10:/layout/notification_template_part_time.xml",
+        "source": "com.magugi.volume_watcher-core-1.6.0-0:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.magugi.volume_watcher-merged_res-10:/layout/custom_dialog.xml",
+        "source": "com.magugi.volume_watcher-core-1.6.0-0:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.magugi.volume_watcher-merged_res-10:/layout/notification_action_tombstone.xml",
+        "source": "com.magugi.volume_watcher-core-1.6.0-0:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.magugi.volume_watcher-merged_res-10:/layout/notification_template_part_chronometer.xml",
+        "source": "com.magugi.volume_watcher-core-1.6.0-0:/layout/notification_template_part_chronometer.xml"
+    }
+]

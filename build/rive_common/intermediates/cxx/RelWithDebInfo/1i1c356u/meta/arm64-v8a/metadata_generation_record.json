@@ -11,11 +11,11 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": 1373932127
+    "memoizedHashCode": 436963025
   },
   {
     "level_": 0,
-    "message_": "JSON \u0027/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/arm64-v8a/android_gradle_build.json\u0027 was up-to-date",
+    "message_": "rebuilding JSON /Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/arm64-v8a/android_gradle_build.json due to:",
     "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
     "tag_": "release|arm64-v8a",
     "diagnosticCode_": 0,
@@ -25,7 +25,133 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": -1014623215
+    "memoizedHashCode": -2124359668
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json /Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -730702820
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file /Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/arm64-v8a/metadata_generation_command.txt, will remove stale json folder",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 455470714
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -996276196
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/arm64-v8a\u0027",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -621308991
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : /Users/auwais/Library/Android/sdk/cmake/3.18.1/bin/cmake\narguments : \n-H/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DANDROID_NDK\u003d/Users/auwais/Library/Android/sdk/ndk/25.1.8937393\n-DCMAKE_ANDROID_NDK\u003d/Users/auwais/Library/Android/sdk/ndk/25.1.8937393\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/auwais/Library/Android/sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/Users/auwais/Library/Android/sdk/cmake/3.18.1/bin/ninja\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/auwais/StudioProjects/E-learning-App/build/rive_common/intermediates/cxx/RelWithDebInfo/1i1c356u/obj/arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/auwais/StudioProjects/E-learning-App/build/rive_common/intermediates/cxx/RelWithDebInfo/1i1c356u/obj/arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-B/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1613031940
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : /Users/auwais/Library/Android/sdk/cmake/3.18.1/bin/cmake\narguments : \n-H/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DANDROID_NDK\u003d/Users/auwais/Library/Android/sdk/ndk/25.1.8937393\n-DCMAKE_ANDROID_NDK\u003d/Users/auwais/Library/Android/sdk/ndk/25.1.8937393\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/auwais/Library/Android/sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/Users/auwais/Library/Android/sdk/cmake/3.18.1/bin/ninja\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/auwais/StudioProjects/E-learning-App/build/rive_common/intermediates/cxx/RelWithDebInfo/1i1c356u/obj/arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/auwais/StudioProjects/E-learning-App/build/rive_common/intermediates/cxx/RelWithDebInfo/1i1c356u/obj/arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-B/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1656350789
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of /Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/arm64-v8a/compile_commands.json.bin normally",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1490311942
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1308622447
+  },
+  {
+    "level_": 0,
+    "message_": "write command file /Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/.cxx/RelWithDebInfo/1i1c356u/arm64-v8a/metadata_generation_command.txt",
+    "file_": "/Users/auwais/.pub-cache/hosted/pub.dev/rive_common-0.0.10/android/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 382481664
   },
   {
     "level_": 0,
@@ -39,6 +165,6 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": 1566419739
+    "memoizedHashCode": 629450637
   }
 ]

@@ -359,70 +359,67 @@ class ShopView extends GetView<ShopController> {
                                 ),
                                 itemCount: controller.filteredProductList.length,
                                 itemBuilder: (BuildContext ctx, int index) {
-                                  return Hero(
-                                    tag: 'flutterLogo${controller.filteredProductList[index].itemId}',
-                                    child: Container(
-                                      padding: const EdgeInsets.all(3),
-                                      decoration: BoxDecoration(
-                                          border: Border.all(
-                                              color: Colors.grey.shade400),
-                                          borderRadius:
-                                              BorderRadius.circular(15)),
-                                      child: Column(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          //Image Container
-                                          Expanded(
-                                            flex: 3,
-                                            child: InkWell(
-                                                onTap: () => Get.toNamed('/shop-item', arguments: [
-                                                          controller.filteredProductList[index].itemId.toString(),
-                                                          controller.filteredProductList[index].image,
-                                                          controller.filteredProductList[index].productName,
-                                                          controller.filteredProductList[index].price,
-                                                          controller.filteredProductList[index].description,
-                                                        ]),
-                                                child: controller.productList[index].image.isEmpty
-                                                    ? Container(
-                                                        width: size.width,
-                                                        decoration: BoxDecoration(
-                                                          border: Border.all(color: Colors.grey.shade400),
-                                                          borderRadius: BorderRadius.circular(10),
-                                                        ),
-                                                        child: Lottie.asset('lottieFiles/shimmer.json'),
-                                                      )
-                                                    : Container(
-                                                        decoration: BoxDecoration(
-                                                          border: Border.all(color: Colors.grey.shade400),
-                                                          borderRadius: BorderRadius.circular(10),
-                                                          image: DecorationImage(image: NetworkImage(ApiServices().productImageURL + controller.filteredProductList[index].image), fit: BoxFit.cover),
-                                                        ),
-                                                      )),
-                                          ),
-                                          Expanded(
-                                            flex: 1,
-                                            child: Padding(
-                                              padding:
-                                                  const EdgeInsets.only(left: 5),
-                                              child: Column(
-                                                crossAxisAlignment:
-                                                    CrossAxisAlignment.start,
-                                                children: [
-                                                  Text(
-                                                    controller.filteredProductList[index].productName,
-                                                    style: headline1,
-                                                    overflow: TextOverflow.ellipsis,
-                                                  ),
-                                                  SizedBox(
-                                                      height: size.width * 0.01),
-                                                  Text('₹ ${controller.filteredProductList[index].price}/-', style: buttonSubTitleStyle),
-                                                ],
-                                              ),
+                                  return Container(
+                                    padding: const EdgeInsets.all(3),
+                                    decoration: BoxDecoration(
+                                        border: Border.all(
+                                            color: Colors.grey.shade400),
+                                        borderRadius:
+                                            BorderRadius.circular(15)),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        //Image Container
+                                        Expanded(
+                                          flex: 3,
+                                          child: InkWell(
+                                              onTap: () => Get.toNamed('/shop-item', arguments: [
+                                                        controller.filteredProductList[index].itemId.toString(),
+                                                        controller.filteredProductList[index].image,
+                                                        controller.filteredProductList[index].productName,
+                                                        controller.filteredProductList[index].price,
+                                                        controller.filteredProductList[index].description,
+                                                      ]),
+                                              child: controller.productList[index].image.isEmpty
+                                                  ? Container(
+                                                      width: size.width,
+                                                      decoration: BoxDecoration(
+                                                        border: Border.all(color: Colors.grey.shade400),
+                                                        borderRadius: BorderRadius.circular(10),
+                                                      ),
+                                                      child: Lottie.asset('lottieFiles/shimmer.json'),
+                                                    )
+                                                  : Container(
+                                                      decoration: BoxDecoration(
+                                                        border: Border.all(color: Colors.grey.shade400),
+                                                        borderRadius: BorderRadius.circular(10),
+                                                        image: DecorationImage(image: NetworkImage(ApiServices().productImageURL + controller.filteredProductList[index].image), fit: BoxFit.cover),
+                                                      ),
+                                                    )),
+                                        ),
+                                        Expanded(
+                                          flex: 1,
+                                          child: Padding(
+                                            padding:
+                                                const EdgeInsets.only(left: 5),
+                                            child: Column(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.start,
+                                              children: [
+                                                Text(
+                                                  controller.filteredProductList[index].productName,
+                                                  style: headline1,
+                                                  overflow: TextOverflow.ellipsis,
+                                                ),
+                                                SizedBox(
+                                                    height: size.width * 0.01),
+                                                Text('₹ ${controller.filteredProductList[index].price}/-', style: buttonSubTitleStyle),
+                                              ],
                                             ),
-                                          )
-                                        ],
-                                      ),
+                                          ),
+                                        )
+                                      ],
                                     ),
                                   );
                                 }),

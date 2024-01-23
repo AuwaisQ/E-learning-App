@@ -218,7 +218,7 @@ class AppProfileController extends GetxController {
                 ],),
             ),
             const SizedBox(height: 20),
-            //Nam Update
+            //Name Update
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Column(
@@ -279,10 +279,7 @@ class AppProfileController extends GetxController {
                           colorText: Colors.white,
                         );
                       } else {
-                        var response = await ApiServices().updateUserName(
-                            int.parse(userId.value),
-                            nameController.text
-                        );
+                        var response = await ApiServices().updateUserName(int.parse(userId.value), nameController.text);
                         print(response);
                         if (response['status']) {
                           Get.back();
@@ -308,7 +305,7 @@ class AppProfileController extends GetxController {
   }
 
 
-  // This shows a CupertinoModalPopup which hosts a CupertinoActionSheet.
+  //Logout Bottom Sheet.
   void showActionSheet(BuildContext context) {
     showCupertinoModalPopup<void>(
       context: context,

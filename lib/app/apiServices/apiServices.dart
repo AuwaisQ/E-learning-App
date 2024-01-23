@@ -200,21 +200,18 @@ class ApiServices {
   }
 
   //Update User Name
-  Future updateUserName(
-      int userId,
-      String name
-      ) async {
+  Future updateUserName(int userId, String name) async {
     if (kDebugMode) {print(updateUserNameURL);}
     final response = await http.post(Uri.parse(updateUserNameURL),
         headers: <String, String>{'Content-Type': 'application/json; charset=UTF-8'},
         body: json.encode({
           "userId": userId,
-          "userName":"$name"
+          "userName": name
         }));
     if (kDebugMode) {
       print({
         "userId": userId,
-        "userName":"$name"
+        "userName":name
       });
     }
     var convertDataToJson = json.decode(response.body);
@@ -398,9 +395,7 @@ class ApiServices {
 
   //Get Material List
   Future materialList() async {
-    if (kDebugMode) {
-      print(materialListURL);
-    }
+    if (kDebugMode) {print(materialListURL);}
     final response = await http.get(Uri.parse(materialListURL));
     var convertDataToJson = json.decode(response.body);
     return convertDataToJson;

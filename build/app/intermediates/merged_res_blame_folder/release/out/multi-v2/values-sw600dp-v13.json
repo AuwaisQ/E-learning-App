@@ -4,7 +4,7 @@
             "outputFile": "com.example.mini_guru.app-mergeReleaseResources-41:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/auwais/.gradle/caches/transforms-3/9157d0cf50a0dc082082629cbf2f400c/transformed/jetified-checkout-1.6.35/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/auwais/.gradle/caches/transforms-3/35dd3a4e9186471483cb5840587e50de/transformed/jetified-checkout-1.6.36/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

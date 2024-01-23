@@ -155,7 +155,6 @@ class ProfilePageView extends GetView<ProfilePageController> {
                   );
                 }),
                 SizedBox(height: size.width * 0.05),
-                //Name TextField
                 Form(
                   key: controller.profileFormKey,
                   autovalidateMode: AutovalidateMode.onUserInteraction,

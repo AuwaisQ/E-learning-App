@@ -22,7 +22,7 @@ class CheckoutController extends GetxController{
   var amount = "".obs;
   late TextEditingController walletBalance = TextEditingController();
   final GlobalKey<FormState> walletKey = GlobalKey<FormState>();
-  var razorPayAPIKey = 'rzp_test_vsSpBCHRz9XUp2'.obs;
+  var razorPayAPIKey = 'rzp_live_dDcAgc9FM8QJxq'.obs;
   Razorpay? razorpay;
 
 
@@ -205,7 +205,7 @@ class CheckoutController extends GetxController{
       'amount': amt * 100,
       'name': 'Mini Guru',
       'description': 'Select This Plan to register',
-      'prefill': {'contact': userMobile.value, 'email': 'auwais@gmail.com'},
+      'prefill': {'contact': userMobile.value, 'email': 'demo@gmail.com'},
       'external': {
         'wallets': ['paytm']
       }

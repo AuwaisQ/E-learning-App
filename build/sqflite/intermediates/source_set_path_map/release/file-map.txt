@@ -1,0 +1,12 @@
+com.tekartik.sqflite-core-1.6.0-0 /Users/auwais/.gradle/caches/transforms-3/1141b72fb8be4e566e7814849b1aa3a2/transformed/core-1.6.0/res
+com.tekartik.sqflite-jetified-window-1.0.0-beta04-1 /Users/auwais/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/res
+com.tekartik.sqflite-jetified-annotation-experimental-1.1.0-2 /Users/auwais/.gradle/caches/transforms-3/a6362f1fb79a6245a27920bb99ff99c3/transformed/jetified-annotation-experimental-1.1.0/res
+com.tekartik.sqflite-jetified-window-java-1.0.0-beta04-3 /Users/auwais/.gradle/caches/transforms-3/ed438543a8e9ffa856a2b095c92f0ea3/transformed/jetified-window-java-1.0.0-beta04/res
+com.tekartik.sqflite-main-4 /Users/auwais/.pub-cache/hosted/pub.dev/sqflite-2.2.8+4/android/src/main/res
+com.tekartik.sqflite-release-5 /Users/auwais/.pub-cache/hosted/pub.dev/sqflite-2.2.8+4/android/src/release/res
+com.tekartik.sqflite-pngs-6 /Users/auwais/StudioProjects/E-learning-App/build/sqflite/generated/res/pngs/release
+com.tekartik.sqflite-resValues-7 /Users/auwais/StudioProjects/E-learning-App/build/sqflite/generated/res/resValues/release
+com.tekartik.sqflite-rs-8 /Users/auwais/StudioProjects/E-learning-App/build/sqflite/generated/res/rs/release
+com.tekartik.sqflite-mergeReleaseResources-9 /Users/auwais/StudioProjects/E-learning-App/build/sqflite/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.tekartik.sqflite-mergeReleaseResources-10 /Users/auwais/StudioProjects/E-learning-App/build/sqflite/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.tekartik.sqflite-merged_res-11 /Users/auwais/StudioProjects/E-learning-App/build/sqflite/intermediates/merged_res/release

@@ -1,6 +1,0 @@
-framework module volume_watcher {
-  umbrella header "volume_watcher-umbrella.h"
-
-  export *
-  module * { export * }
-}
