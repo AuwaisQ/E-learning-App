@@ -241,10 +241,8 @@ class HomeView extends GetView<HomeController> {
                                               ),
                                             ),
                                             Column(
-                                              crossAxisAlignment:
-                                              CrossAxisAlignment.start,
-                                              mainAxisAlignment:
-                                              MainAxisAlignment.start,
+                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                              mainAxisAlignment: MainAxisAlignment.start,
                                               children: [
                                                 SizedBox(height: size.width * 0.01),
                                                 Padding(

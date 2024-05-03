@@ -286,9 +286,7 @@ class CheckoutView extends GetView<CheckoutController> {
                                                     height: size.width * 0.05,),
                                                   //Wallet history button
                                                   Container(
-                                                    padding: const EdgeInsets
-                                                        .symmetric(
-                                                        horizontal: 15),
+                                                    padding: const EdgeInsets.symmetric(horizontal: 15),
                                                     height: size.width * 0.14,
                                                     width: double.infinity,
                                                     decoration: BoxDecoration(
@@ -302,8 +300,7 @@ class CheckoutView extends GetView<CheckoutController> {
                                                       children: [
                                                         Center(
                                                             child: InkWell(
-                                                              onTap: (() =>
-                                                              {
+                                                              onTap: (() => {
                                                                 //TODO: Redirect to Wallet history Page
                                                               }),
                                                               child: const Text(
